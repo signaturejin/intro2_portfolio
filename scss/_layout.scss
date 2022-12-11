@@ -66,7 +66,7 @@
                     animation-name: border1;
                     animation-duration: 1.5s;
                     animation-timing-function: linear;
-                    animation-delay: 3.5s;
+                    animation-delay: 3.2s;
                     animation-iteration-count: 1;
                     animation-direction: normal;
                     animation-fill-mode: forwards;
@@ -82,7 +82,7 @@
                     animation-name: border2;
                     animation-duration: 1.5s;
                     animation-timing-function: linear;
-                    animation-delay: 5s;
+                    animation-delay: 4.7s;
                     animation-iteration-count: 1;
                     animation-direction: normal;
                     animation-fill-mode: forwards;
@@ -117,12 +117,12 @@
                     stroke-dasharray: 779.64;
                     stroke-dashoffset: 779.64;
                     // animation: name duration timing-function delay iteration-count direction fill-mode;
-                    animation: path 5s forwards .7s;
+                    animation: path 4s forwards .7s;
                     box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
                     text-shadow: 5px 5px 5px rgba(0,0,0,0.2);
 
                     @keyframes path {
-                        50% {stroke-dashoffset: 0; }
+                        80% {stroke-dashoffset: 0; }
                         100% {
                             stroke-dashoffset: 0;
                             // fill: #f35d5d;
@@ -132,9 +132,9 @@
                 }
             }
             .text_box {
-                text-align: center; margin-top: 100px;
+                text-align: center; margin-top: 50px;
                 p {
-                    font-size: 23px; line-height: 40px;
+                    font-size: 23px; line-height: 55px;
                     font-weight: 500; color: #fff;
                     .line {
                         // color: #f35d5d;
